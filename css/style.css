@@ -130,8 +130,9 @@ tr:hover {
     height: auto;
     transition: transform 0.3s ease;
 }
-.team-img:hover{
-    transform: scale(1,1);
+
+.team_img img:hover {
+    transform: scale(1.1);
 }
 .team_member{
     display:inline-block;
