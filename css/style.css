@@ -43,6 +43,9 @@ h2 {
     background-color: #f2f2f2;
     color: #333;
 }
+.topnav-right{
+    float:right
+}
 .banner {
     background-color: #4f09a5;
     color: white;
@@ -117,4 +120,60 @@ tr:nth-child(even) {
 }
 tr:hover {
     background-color: #e7cce9;
+}
+.team_img{
+    overflow: hidden;
+    text-align: center;
+}
+.team_img img {
+    width: 180px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.team-img:hover{
+    transform: scale(1,1);
+}
+.team_member{
+    display:inline-block;
+    font-size: small;
+    color: #373737;
+    text-transform: uppercase;
+}
+.contactForm{
+    max-width: 500px;
+    margin:0 auto;
+    padding: 20px;
+    background-color:#ecf0f1;
+    border-radius: 5px;
+    border: 1px solid #bdc3c7
+}
+.contactForm label{
+    margin-bottom:1px;
+    font-weight:bold;
+
+}
+.contactForm input,
+.contactForm select,
+.contactForm textarea {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 3px;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactForm button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1.6em;
+}
+
+.contactForm button:hover {
+    background-color: #2980b9;
 }
